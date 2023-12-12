@@ -6,7 +6,7 @@ This project aims to develop a news platform using microservices architecture to
 ## Services Provided
 
 ### 1. Image Processing API
-An API has been developed for image processing, allowing users to upload images and apply various processing operations. This interface can be used to enhance images, correct colors, resize them, and apply other effects.
+An API has been developed for image processing, allowing users to upload images and apply various processing operations. This interface can be used to Extract text from image.
 
 ### 2. PDF Processing API
 An API has been developed for PDF processing, enabling users to upload PDF files, extract their content, and convert it into editable text format. This interface can be utilized to convert PDF files into searchable and editable texts.
