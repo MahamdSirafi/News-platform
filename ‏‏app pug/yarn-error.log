@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /home/kali/bin:/home/kali/.fly/bin:/home/kali/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kali/.dotnet/tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/kali/repos/college-5th-year/Distributed systems/‏‏app pug/package.json: Unexpected token } in JSON at position 283
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "dependencies": {
+      "axios": "^1.6.1",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.2",
+      "mongoose": "^7.6.2",
+      "morgan": "^1.10.0",
+      "pug": "^3.0.2",
+      "multer": "^1.4.5-lts.1",
+    },
+    "scripts": {
+      "start": "nodemon app.js",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

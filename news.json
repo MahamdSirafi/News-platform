@@ -1,0 +1,46 @@
+[
+  {
+    "user": {
+      "$oid": "65509fdd360db6246e209cbd"
+    },
+    "country": "USA",
+    "city": "NewYourk",
+    "news": "A significant decline in the popularity of the American President after the recent events in the conflict in the Gaza Strip",
+    "createdAt": {
+      "$date": "2023-10-08T22:00:00.000Z"
+    }
+  },
+  {
+    "user": {
+      "$oid": "65563362496fc2a9bfd66a46"
+    },
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "news": "The leaders of the Arab countries agreed in the last meeting to intervene directly to resolve the Palestinian issue",
+    "createdAt": {
+      "$date": "2023-11-01T22:00:00.000Z"
+    }
+  },
+  {
+    "user": {
+      "$oid": "655633e3496fc2a9bfd66a48"
+    },
+    "country": "Ukrainian",
+    "city": "Kyiv",
+    "news": "In a surprising development, a ceasefire agreement has been reached in the current conflict area. This agreement will ease tensions and halt ongoing military operations. It is expected that peace negotiations to find a lasting political solution to the conflict will begin in the next few days. The whole world hopes that This agreement leads to peace and an end to the existing humanitarian crisis in the region.",
+    "createdAt": {
+      "$date": "2023-06-06T22:00:00.000Z"
+    }
+  },
+  {
+    "user": {
+      "$oid": "65563437496fc2a9bfd66a49"
+    },
+    "country": "Barazeil",
+    "city": "Amazon",
+    "news": "Researchers have discovered a new species of butterfly in the Amazon rainforest, characterized by its vibrant blue wings and unique patterns. The newly named 'Amazon Blue' butterfly is believed to be endemic to a small region within the rainforest and is attracting attention from scientists and nature enthusiasts around the world",
+    "createdAt": {
+      "$date": "2023-08-03T22:00:00.000Z"
+    }
+  }
+]

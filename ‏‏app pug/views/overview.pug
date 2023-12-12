@@ -1,0 +1,27 @@
+extends base
+
+block content
+    main.main
+        .card-container
+            each _news in _News
+                .card
+                    .card__header
+                        .card__picture
+                            img.card__picture-img(src=`/img/news.jpg`,alt=`${_news.user.name}`)
+                        .heading-tertiary
+                            span=_news.user.name
+                    .card__details
+                        .card__sub-heading
+                            .heading-box__detail
+                                svg.heading-box__icon
+                                    use(xlink:href="/img/icons.svg#icon-map-pin")
+                                p #{_news.country}, #{_news.city}
+                        p.card__text=_news.news
+                        .card__data
+                            svg.card__icon
+                                use(xlink:href="/img/icons.svg#icon-calendar")
+                            span=_news.createdAt.toLocaleString('en-us',{month:'long',year:'numeric',day:'numeric',hour:"numeric"})
+    if(user)
+        a#add-post-btn(href='#add-post-section')
+            .btn-circle
+                |+

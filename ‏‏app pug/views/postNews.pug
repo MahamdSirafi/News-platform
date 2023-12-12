@@ -1,0 +1,33 @@
+extends base
+
+block content
+    main.main
+        .auth-form
+            h2.heading-secondary.ma-bt-lg Create news
+            form.form-post
+                .form__group
+                    label.form__label(for='content-type') Content Type
+                    select#content-type.form__input(name='content-type', required)
+                        option(value='photo') Photo
+                        option(value='pdf') PDF
+                        option(value='text') Text
+                .form__group
+                    label.form__label(for='country') country
+                    input#country.form__input(type='text', name='country', placeholder='Syria', required)
+                .form__group
+                    label.form__label(for='city') city
+                    input#city.form__input(type='text', name='city', placeholder='Aleppo', required)
+                .form__group.news_text
+                    label.form__label(for='news') news
+                    input#news.form__input(type='text', name='news', placeholder='Important accident')
+                .form__group.form__photo-upload.photo_file
+                    input.form__upload(type="file", id='photo', name="photo", accept='image/*') 
+                    label(for="photo") Choose a photo
+                .form__group.form__photo-upload.pdf_file
+                    input.form__upload(type="file", id='pdf', name="pdf", accept='') 
+                    label(for="pdf") Choose a pdf
+                .form__group.sign
+                    button.btn.btn--green Post
+    a#add-post-btn.back(href='#back-home-section')
+        .btn-circle
+            |  &#129032;
